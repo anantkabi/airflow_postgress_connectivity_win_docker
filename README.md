@@ -75,6 +75,9 @@ Open your browser and go to:
 * Database: `airflow`
 
 you can access the database via DBeaver which provide native connections to Postgres running locally
+
+![image](https://github.com/user-attachments/assets/67c0e403-7f14-46a7-b468-5f4c4144e984)
+
 ---
 
 ## 📅 Sample DAG – `postgres_connecter.py`

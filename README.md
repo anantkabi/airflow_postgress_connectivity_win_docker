@@ -5,8 +5,6 @@ This repository demonstrates how to set up **Apache Airflow** using **Docker on 
 
 > ✅ Ideal for developers and data engineers looking to experiment with Airflow and Postgres in a local development Docker environment.
 
----
-
 ## 🚀 Project Overview
 
 This demo includes:
@@ -17,18 +15,13 @@ This demo includes:
   - Connects to the PostgreSQL instance
   - Inserts sample data into a table
 
----
-
 ## 🛠️ Prerequisites
 
 - [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop)
 - Git
 
----
-
 ## 🧱 Folder Structure
 
-```bash
 .
 ├── dags/
 │   └── insert_postgres_data.py      # Sample DAG to insert data into PostgreSQL

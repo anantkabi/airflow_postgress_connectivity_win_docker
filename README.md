@@ -19,6 +19,7 @@ This demo includes:
 
 - [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop)
 - Git
+- DBeaver
 
 ## 🧱 Folder Structure
 

@@ -72,6 +72,8 @@ Open your browser and go to:
 
 ### 7. Ensure a connection named `postgres_airflow_conn` is configured in the Airflow UI under **Admin > Connections**.
 
+![image](https://github.com/user-attachments/assets/d723bc0d-223a-4892-bb3a-cbcc25794631)
+
 ---
 
 ## 🗃️ PostgreSQL Details. 

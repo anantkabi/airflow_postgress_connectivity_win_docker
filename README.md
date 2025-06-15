@@ -76,7 +76,7 @@ Open your browser and go to:
 
 ## 🗃️ PostgreSQL Details. 
 
-* Host: `postgres`
+* Host: `localhost`
 * Port: `5432`
 * Username: `airflow`
 * Password: `airflow`

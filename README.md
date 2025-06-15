@@ -9,10 +9,10 @@ This repository demonstrates how to set up **Apache Airflow** using **Docker on 
 
 This demo includes:
 
-- Apache Airflow (2.7+) running via Docker Compose
+- Apache Airflow (3.0+) running via Docker Compose
 - PostgreSQL database container
 - A custom DAG that:
-  - Connects to the PostgreSQL instance
+  - Connects to the PostgreSQL instance and create a table if that doesnt exists
   - Inserts sample data into a table
 
 ## 🛠️ Prerequisites
@@ -24,7 +24,7 @@ This demo includes:
 
 .
 ├── dags/
-│   └── insert_postgres_data.py      # Sample DAG to insert data into PostgreSQL
+│   └── postgres_connecter.py      # Sample DAG to insert data into PostgreSQL
 ├── docker-compose.yaml              # Docker Compose setup for Airflow + Postgres
 ├── .env                             # Environment variables (Airflow UID/GID)
 └── README.md
@@ -40,7 +40,7 @@ This demo includes:
 git clone https://github.com/anantkabi/airflow_postgress_connectivity_win_docker.git
 cd airflow_postgress_connectivity_win_docker
 ```
-### 2. Setup docker-compose.yaml file and ensure right dependencies are listed
+### 2. Setup docker-compose.yaml and .env file and ensure right dependencies are listed
 
 ### 3. Initialize Airflow 
 
@@ -51,8 +51,16 @@ docker-compose up airflow-init
 ### 4. Start All Services
 
 ```bash
-docker-compose up
+docker-compose up -d
 ```
+
+### 5. Ensure all required services are healthy and running
+
+```bash
+docker ps
+```
+![image](https://github.com/user-attachments/assets/de3aa83a-ef03-4a6a-a17c-919fce38675b)
+
 
 ### 5. Access the Airflow UI
 

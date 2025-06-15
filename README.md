@@ -55,13 +55,13 @@ cd airflow_postgress_connectivity_win_docker
 docker-compose up airflow-init
 ```
 
-### 3. Start All Services
+### 4. Start All Services
 
 ```bash
 docker-compose up
 ```
 
-### 4. Access the Airflow UI
+### 5. Access the Airflow UI
 
 Open your browser and go to:
 🔗 [http://localhost:8080](http://localhost:8080)
@@ -69,7 +69,7 @@ Open your browser and go to:
 * Username: `airflow`
 * Password: `airflow`
 
-### 5. Ensure a connection named `postgres_airflow_conn` is configured in the Airflow UI under **Admin > Connections**.
+### 6. Ensure a connection named `postgres_airflow_conn` is configured in the Airflow UI under **Admin > Connections**.
 
 ---
 
@@ -120,11 +120,6 @@ docker-compose down --volumes --remove-orphans
 ## 📬 Feedback or Contributions?
 
 Feel free to open issues or submit pull requests.
-Created with 💻 by [Anant Kabi](https://github.com/anantkabi)
 
 ```
 
----
-
-Let me know if you'd like a version with screenshots, badges, or setup instructions for Mac/Linux.
-```

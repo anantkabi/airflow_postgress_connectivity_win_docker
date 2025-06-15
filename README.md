@@ -62,7 +62,7 @@ docker ps
 ![image](https://github.com/user-attachments/assets/de3aa83a-ef03-4a6a-a17c-919fce38675b)
 
 
-### 5. Access the Airflow UI
+### 6. Access the Airflow UI
 
 Open your browser and go to:
 🔗 [http://localhost:8080](http://localhost:8080)
@@ -70,7 +70,7 @@ Open your browser and go to:
 * Username: `airflow`
 * Password: `airflow`
 
-### 6. Ensure a connection named `postgres_airflow_conn` is configured in the Airflow UI under **Admin > Connections**.
+### 7. Ensure a connection named `postgres_airflow_conn` is configured in the Airflow UI under **Admin > Connections**.
 
 ---
 

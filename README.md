@@ -1,5 +1,3 @@
----
-
 ````markdown
 # Apache Airflow + PostgreSQL Integration (Windows Docker)
 
